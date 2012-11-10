@@ -1,12 +1,12 @@
 Gem::Specification.new do |s|
 
-  s.name = "google_drive"
-  s.version = "0.3.2"
+  s.name = "parallel588_google_drive"
+  s.version = "0.3.3"
   s.authors = ["Hiroshi Ichikawa"]
   s.email = ["gimite+github@gmail.com"]
   s.summary = "A library to read/write files/spreadsheets in Google Drive/Docs."
   s.description = "A library to read/write files/spreadsheets in Google Drive/Docs."
-  s.homepage = "https://github.com/gimite/google-drive-ruby"
+  s.homepage = "https://github.com/parallel588/google-drive-ruby"
   s.rubygems_version = "1.2.0"
 
   s.files = ["README.rdoc"] + Dir["lib/**/*"]
