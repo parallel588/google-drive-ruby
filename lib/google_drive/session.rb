@@ -134,7 +134,7 @@ module GoogleDrive
         # Returns GoogleDrive::File.
         # Returns nil if not found
         def find_by_id(resource_id)
-          doc = request(:get, "https://docs.google.com/feeds/documents/private/full/#{resource_id}?v=3", :auth => :writely)
+          doc = request(:get, "https://docs.google.com/feeds/documents/private/full/#{resource_id}", :auth => :writely)
           return entry_element_to_file(doc)
         end
 
